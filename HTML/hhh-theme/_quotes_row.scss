@@ -1,4 +1,28 @@
 .quotes_row {
+  background: $dark;
+  &:before {
+  }
+  .sectionTitle {
+    h3 {
+      color: #fff;
+    }
+  }
+
+  &.style2 {
+    background: $green;
+    .sectionTitle {
+      .label {
+        background: $dark;
+      }
+    }
+    .quotation_block {
+      h6 {
+        color: darken(saturate(adjust-hue($green, 0.1386), 7.963), 18.8235);
+      }
+    }
+  }
+}
+.quotes_row1 {
   background: #fff;
   &:before {
   }

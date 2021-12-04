@@ -474,7 +474,7 @@ body p {
 
 /*--------------------------------------------------------------------------------------------*/
 .quotes_row {
-  background: #fff;
+  background: #435061;
 }
 
 .quotes_row .sectionTitle h3 {
@@ -482,7 +482,7 @@ body p {
 }
 
 .quotes_row.style2 {
-  background: #fff;
+  background: #29af8a;
 }
 
 .quotes_row.style2 .sectionTitle .label {
@@ -490,6 +490,26 @@ body p {
 }
 
 .quotes_row.style2 .quotation_block h6 {
+  color: #12664f;
+}
+
+.quotes_row1 {
+  background: #fff;
+}
+
+.quotes_row1 .sectionTitle h3 {
+  color: #fff;
+}
+
+.quotes_row1.style2 {
+  background: #fff;
+}
+
+.quotes_row1.style2 .sectionTitle .label {
+  background: #435061;
+}
+
+.quotes_row1.style2 .quotation_block h6 {
   color: #12664f;
 }
 
