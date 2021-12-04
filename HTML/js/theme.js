@@ -10,6 +10,16 @@
         }
     }
     donate_box();
+    function youtube_box(){
+        if ( $('#youtube_box').length ){            
+            $('a[href="#youtube_box"]').magnificPopup({
+              type:'inline',
+              midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
+            
+            })
+        }
+    }
+    youtube_box();
     
     function countDownActive(){
         if ( $('#upcoming-event-countdown').length ){
