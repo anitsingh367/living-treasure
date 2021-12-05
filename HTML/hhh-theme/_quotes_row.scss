@@ -1,43 +1,67 @@
-.quotes_row{
-    background: $dark;
-    &:before{
+.quotes_row {
+  background: $dark;
+  &:before {
+  }
+  .sectionTitle {
+    h3 {
+      color: #fff;
     }
-    .sectionTitle{
-        h3{
-            color: #fff;
-        }
+  }
+
+  &.style2 {
+    background: $green;
+    .sectionTitle {
+      .label {
+        background: $dark;
+      }
     }
-    
-    &.style2{
-        background: $green;
-        .sectionTitle{
-            .label{
-                background: $dark;
-            }
-        }
-        .quotation_block{
-            h6{
-                color: darken(saturate(adjust-hue($green, 0.1386), 7.9630), 18.8235);
-            }
-        }
+    .quotation_block {
+      h6 {
+        color: darken(saturate(adjust-hue($green, 0.1386), 7.963), 18.8235);
+      }
     }
+  }
+}
+.quotes_row1 {
+  background: #fff;
+  &:before {
+  }
+  .sectionTitle {
+    h3 {
+      color: #fff;
+    }
+  }
+
+  &.style2 {
+    background: #fff;
+    .sectionTitle {
+      .label {
+        background: $dark;
+      }
+    }
+    .quotation_block {
+      h6 {
+        color: darken(saturate(adjust-hue($green, 0.1386), 7.963), 18.8235);
+      }
+    }
+  }
 }
 
-.quotation_block{
-    .quote_block{
-        background: #fff;
-        color: $ashLight;
-        &:after{
-            border-top-color: #fff;
-        }
-        .quote_sign{
-            color: $green;
-        }
+.quotation_block {
+  .quote_block {
+    background: #fff;
+    color: $ashLight;
+    &:after {
+      border-top-color: #fff;
     }
-    h5{
-        color: #fff;
+    .quote_sign {
+      color: $green;
     }
-    h6{
-        color: $ashDark;
-    }
+  }
+  h5 {
+    color: #fff;
+  }
+  h6 {
+    color: $ashDark;
+  }
 }
