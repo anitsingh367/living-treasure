@@ -1484,6 +1484,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 /*--------------------------------------------------------------------------------------------*/
 .quotes_row {
   padding: 90px 0 100px;
+  margin-top: 30px;
 }
 
 .quotes_row:before {
@@ -1506,10 +1507,6 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 
 .quotes_row .sectionTitle {
   margin-bottom: 55px;
-}
-
-.quotes_row.style2.style6 {
-  background: #fff;
 }
 
 .quotation_block {
@@ -1580,6 +1577,33 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   text-transform: uppercase;
   margin: 0;
   line-height: 24px;
+}
+
+.quotes_row1 {
+  padding: 90px 0 100px;
+  margin-top: 30px;
+}
+
+.quotes_row1:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url(../images/world-map.png) repeat fixed center center;
+  opacity: 0.12;
+  z-index: 0;
+}
+
+.quotes_row1 .container {
+  position: relative;
+  z-index: 1;
+}
+
+.quotes_row1 .sectionTitle {
+  margin-bottom: 55px;
 }
 
 @-webkit-keyframes scroll {
