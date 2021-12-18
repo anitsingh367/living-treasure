@@ -22,7 +22,7 @@ $animationSpeed: 40s;
 .slider {
   background: white;
   box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
-  height: 100px;
+  height: 100%;
   margin: auto;
   overflow: hidden;
   position: relative;
@@ -32,7 +32,7 @@ $animationSpeed: 40s;
   &::after {
     @include white-gradient;
     content: "";
-    height: 100px;
+    height: 100%;
     position: absolute;
     width: 200px;
     z-index: 2;
@@ -56,7 +56,7 @@ $animationSpeed: 40s;
   }
 
   .slide {
-    height: 100px;
+    height: 100%;
     width: 250px;
   }
 }

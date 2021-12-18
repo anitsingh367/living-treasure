@@ -995,6 +995,25 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   }
 }
 
+video {
+  position: fixed;
+  z-index: -1;
+}
+
+@media (min-aspect-ratio: 16 / 9) {
+  video video {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-aspect-ratio: 16 / 9) {
+  video video {
+    width: 100%;
+    height: auto;
+  }
+}
+
 /*--------------------------------------------------------------------------------------------*/
 .donate_form {
   border-radius: 3px;
@@ -2315,6 +2334,25 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   }
 }
 
+.featured_news .caption video {
+  position: fixed;
+  z-index: -1;
+}
+
+@media (min-aspect-ratio: 16 / 9) {
+  .featured_news .caption video video {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-aspect-ratio: 16 / 9) {
+  .featured_news .caption video video {
+    width: 100%;
+    height: auto;
+  }
+}
+
 .featured_news .news-title {
   margin: 25px 0;
 }
@@ -2368,6 +2406,19 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 
 .featured_news .owl-dots .owl-dot + .owl-dot {
   margin-left: 5px;
+}
+
+.container .center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 20px;
 }
 
 /*--------------------------------------------------------------------------------------------*/
@@ -3238,28 +3289,23 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   margin-bottom: 50px;
 }
 
-.featured_causes_row .owl-prev, .featured_causes_row .owl-next {
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
-  border-radius: 3px;
-  width: 45px;
-  height: 45px;
-  line-height: 45px;
-  position: absolute;
-  text-align: center;
+.featured_causes_row #videoBG {
+  position: fixed;
+  z-index: -1;
 }
 
-.featured_causes_row .owl-prev i, .featured_causes_row .owl-next i {
-  font-size: 18px;
+@media (min-aspect-ratio: 16 / 9) {
+  .featured_causes_row #videoBG #videoBG {
+    width: 100%;
+    height: auto;
+  }
 }
 
-.featured_causes_row .owl-prev {
-  left: -72px;
-}
-
-.featured_causes_row .owl-next {
-  right: -72px;
+@media (max-aspect-ratio: 16 / 9) {
+  .featured_causes_row #videoBG #videoBG {
+    width: 100%;
+    height: auto;
+  }
 }
 
 /*--------------------------------------------------------------------------------------------*/
