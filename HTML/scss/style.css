@@ -1211,6 +1211,8 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 .how_help2.row {
   margin-top: -122px;
   z-index: 2;
+  -webkit-transform: translateY(50%);
+          transform: translateY(50%);
 }
 
 @media (max-width: 991px) {
@@ -5795,7 +5797,7 @@ blockquote footer {
 }
 
 .cause-item .fund_raises .amount_box {
-  width: 50%;
+  width: 60%;
 }
 
 @media (max-width: 1199px) {
