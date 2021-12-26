@@ -67,22 +67,36 @@ body p {
   line-height: 24px;
   font-family: "Karla", sans-serif;
 }
-body section.row, body header.row, body footer.row {
+body section.row,
+body header.row,
+body footer.row {
   margin: 0;
   position: relative;
 }
 
 /*Ancore*/
-a, .btn, button {
+a,
+.btn,
+button {
   outline: none;
   -webkit-transition: all 300ms linear 0s;
   transition: all 300ms linear 0s;
 }
-a:before, a:after, .btn:before, .btn:after, button:before, button:after {
+a:before,
+a:after,
+.btn:before,
+.btn:after,
+button:before,
+button:after {
   -webkit-transition: all 300ms linear 0s;
   transition: all 300ms linear 0s;
 }
-a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
+a:focus,
+a:hover,
+.btn:focus,
+.btn:hover,
+button:focus,
+button:hover {
   outline: none;
   text-decoration: none;
   -webkit-transition: all 300ms linear 0s;
@@ -136,7 +150,8 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 }
 
 /*Label*/
-.label, .label.widget-title {
+.label,
+.label.widget-title {
   font: 12px/28px "Montserrat", sans-serif;
   color: #fff;
   display: inline-block;
@@ -165,7 +180,8 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   line-height: 1;
   margin-bottom: 5px;
 }
-.fund_raises h2, .fund_raises h3 {
+.fund_raises h2,
+.fund_raises h3 {
   font-family: "Montserrat", sans-serif;
   margin: 0;
   line-height: 1;
@@ -241,7 +257,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 }
 .progress .percentage:after {
   display: block;
-  content: '';
+  content: "";
   width: 0;
   height: 0;
   border-top: 4px solid;
@@ -325,7 +341,8 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   width: 100%;
   padding: 10px 0;
 }
-.navbar.affix + header, .navbar.affix + section {
+.navbar.affix + header,
+.navbar.affix + section {
   margin-top: 91px;
 }
 .navbar.affix-bottom {
@@ -414,7 +431,8 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 #mainNav .navbar-nav li a + ul li a {
   font: 700 13px/48px "Montserrat", sans-serif;
 }
-#mainNav .navbar-nav li a + ul li a:hover, #mainNav .navbar-nav li a + ul li a:focus {
+#mainNav .navbar-nav li a + ul li a:hover,
+#mainNav .navbar-nav li a + ul li a:focus {
   background: none;
   -webkit-box-shadow: none;
   box-shadow: none;
@@ -432,27 +450,41 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
     top: 0;
   }
 }
-#mainNav .navbar-nav li:hover > a, #mainNav .navbar-nav li:focus > a, #mainNav .navbar-nav li.open > a {
+#mainNav .navbar-nav li:hover > a,
+#mainNav .navbar-nav li:focus > a,
+#mainNav .navbar-nav li.open > a {
   background: none;
   -webkit-box-shadow: none;
   box-shadow: none;
 }
 @media (min-width: 1025px) {
-  #mainNav .navbar-nav li:hover > a + ul, #mainNav .navbar-nav li:focus > a + ul, #mainNav .navbar-nav li.open > a + ul {
+  #mainNav .navbar-nav li:hover > a + ul,
+  #mainNav .navbar-nav li:focus > a + ul,
+  #mainNav .navbar-nav li.open > a + ul {
     -webkit-transform: scale(1, 1);
     -ms-transform: scale(1, 1);
     transform: scale(1, 1);
   }
 }
 @media (min-width: 1025px) {
-  #mainNav .navbar-nav li:hover > a + ul li a + ul, #mainNav .navbar-nav li:focus > a + ul li a + ul, #mainNav .navbar-nav li.open > a + ul li a + ul {
+  #mainNav .navbar-nav li:hover > a + ul li a + ul,
+  #mainNav .navbar-nav li:focus > a + ul li a + ul,
+  #mainNav .navbar-nav li.open > a + ul li a + ul {
     -webkit-transform: scale(0, 1);
     -ms-transform: scale(0, 1);
     transform: scale(0, 1);
   }
 }
 @media (min-width: 1025px) {
-  #mainNav .navbar-nav li:hover > a + ul li:hover a + ul, #mainNav .navbar-nav li:hover > a + ul li.active a + ul, #mainNav .navbar-nav li:hover > a + ul li.open a + ul, #mainNav .navbar-nav li:focus > a + ul li:hover a + ul, #mainNav .navbar-nav li:focus > a + ul li.active a + ul, #mainNav .navbar-nav li:focus > a + ul li.open a + ul, #mainNav .navbar-nav li.open > a + ul li:hover a + ul, #mainNav .navbar-nav li.open > a + ul li.active a + ul, #mainNav .navbar-nav li.open > a + ul li.open a + ul {
+  #mainNav .navbar-nav li:hover > a + ul li:hover a + ul,
+  #mainNav .navbar-nav li:hover > a + ul li.active a + ul,
+  #mainNav .navbar-nav li:hover > a + ul li.open a + ul,
+  #mainNav .navbar-nav li:focus > a + ul li:hover a + ul,
+  #mainNav .navbar-nav li:focus > a + ul li.active a + ul,
+  #mainNav .navbar-nav li:focus > a + ul li.open a + ul,
+  #mainNav .navbar-nav li.open > a + ul li:hover a + ul,
+  #mainNav .navbar-nav li.open > a + ul li.active a + ul,
+  #mainNav .navbar-nav li.open > a + ul li.open a + ul {
     -webkit-transform: scale(1, 1);
     -ms-transform: scale(1, 1);
     transform: scale(1, 1);
@@ -481,7 +513,8 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   margin-left: 25px;
   padding: 6px 0;
 }
-.language_picker .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+.language_picker
+  .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
   width: auto;
 }
 .language_picker .btn-group {
@@ -607,7 +640,8 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
     width: 53px;
   }
 }
-.topbar .nav li a:hover, .topbar .nav li a:focus {
+.topbar .nav li a:hover,
+.topbar .nav li a:focus {
   -webkit-box-shadow: none;
   box-shadow: none;
 }
@@ -903,7 +937,9 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   line-height: 20px;
   font-size: 22px;
 }
-.donate_form h3, .donate_form h5, .donate_form h4 {
+.donate_form h3,
+.donate_form h5,
+.donate_form h4 {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   margin: 0 0 10px;
@@ -927,7 +963,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   position: relative;
 }
 .donate_form input[type="radio"] + label:before {
-  content: '';
+  content: "";
   float: left;
   width: 18px;
   height: 18px;
@@ -936,7 +972,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   margin-left: -30px;
 }
 .donate_form input[type="radio"] + label:after {
-  content: '';
+  content: "";
   display: block;
   width: 10px;
   height: 10px;
@@ -1066,6 +1102,8 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 .how_help2.row {
   margin-top: -122px;
   z-index: 2;
+  -webkit-transform: translateY(50%);
+  transform: translateY(50%);
 }
 @media (max-width: 991px) {
   .how_help2.row {
@@ -1212,13 +1250,13 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
     margin-right: 0;
   }
   .upcoming_events .event_cover_photo .event_time_loc .by:after {
-    content: ',';
+    content: ",";
     display: inline-block;
   }
 }
 @media (max-width: 767px) {
   .upcoming_events .event_cover_photo .event_time_loc .date_time:after {
-    content: ',';
+    content: ",";
     display: inline-block;
   }
 }
@@ -1302,7 +1340,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   padding: 90px 0 100px;
 }
 .quotes_row:before {
-  content: '';
+  content: "";
   display: block;
   position: absolute;
   top: 0;
@@ -1310,7 +1348,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   right: 0;
   bottom: 0;
   background: url(../images/world-map.png) repeat fixed center center;
-  opacity: .12;
+  opacity: 0.12;
   z-index: 0;
 }
 .quotes_row .container {
@@ -1339,7 +1377,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   }
 }
 .quotation_block .quote_block:after {
-  content: '';
+  content: "";
   display: block;
   position: absolute;
   left: 50%;
@@ -1390,7 +1428,8 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 /*--------------------------------------------------------------------------------------------*/
 .beVolunteer {
   padding: 169px 0;
-  background: url(http://themedesigner.in.dimgx.net/demo/Helping-Hands/images/beVolunteer.jpg) no-repeat fixed center 0;
+  background: url(http://themedesigner.in.dimgx.net/demo/Helping-Hands/images/beVolunteer.jpg)
+    no-repeat fixed center 0;
   -webkit-background-size: cover;
   background-size: cover;
 }
@@ -1424,7 +1463,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   position: relative;
 }
 .beVolunteer2 .container:before {
-  content: '';
+  content: "";
   display: block;
   position: absolute;
   top: 17px;
@@ -1580,15 +1619,16 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   padding: 125px 0 145px;
 }
 .sponsor_banner:before {
-  content: '';
+  content: "";
   display: block;
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background: url(http://themedesigner.in.dimgx.net/demo/Helping-Hands/images/sponsors.jpg) repeat fixed center center;
-  opacity: .10;
+  background: url(http://themedesigner.in.dimgx.net/demo/Helping-Hands/images/sponsors.jpg)
+    repeat fixed center center;
+  opacity: 0.1;
   z-index: 0;
 }
 .sponsor_banner .container {
@@ -1741,7 +1781,8 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   font: 13px/21px "Montserrat", sans-serif;
   text-transform: uppercase;
 }
-.footer_sidebar .recent-posts li a:hover, .footer_sidebar .recent-posts li a:focus {
+.footer_sidebar .recent-posts li a:hover,
+.footer_sidebar .recent-posts li a:focus {
   background: none;
 }
 .footer_sidebar .recent-posts li + li {
@@ -1768,7 +1809,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   position: relative;
 }
 .copyright_area .copy_inner:before {
-  content: '';
+  content: "";
   width: -webkit-calc(100% - 30px);
   width: calc(100% - 30px);
   left: 15px;
@@ -1824,7 +1865,8 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 .copyright_area .nav li a {
   padding: 0;
 }
-.copyright_area .nav li a:hover, .copyright_area .nav li a:focus {
+.copyright_area .nav li a:hover,
+.copyright_area .nav li a:focus {
   background: none;
 }
 
@@ -1907,7 +1949,8 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 .navbar2.affix {
   padding: 0;
 }
-.navbar2.affix + header, .navbar2.affix + section {
+.navbar2.affix + header,
+.navbar2.affix + section {
   margin-top: 50px;
 }
 
@@ -1926,7 +1969,8 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   float: none;
   display: block;
 }
-.navbar3.affix + header, .navbar3.affix + section {
+.navbar3.affix + header,
+.navbar3.affix + section {
   margin-top: 0;
 }
 
@@ -2106,10 +2150,12 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   font: 16px/24px "Karla", sans-serif;
   margin-bottom: 50px;
 }
-.causes_carousel .item:hover .images_row img, .causes_carousel .item:focus .images_row img {
+.causes_carousel .item:hover .images_row img,
+.causes_carousel .item:focus .images_row img {
   opacity: 0.3;
 }
-.causes_carousel .item:hover .images_row a.btn-primary, .causes_carousel .item:focus .images_row a.btn-primary {
+.causes_carousel .item:hover .images_row a.btn-primary,
+.causes_carousel .item:focus .images_row a.btn-primary {
   bottom: 50%;
 }
 .causes_carousel .owl-dots {
@@ -2210,7 +2256,8 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 
 /*--------------------------------------------------------------------------------------------*/
 .page-header {
-  background: url(http://themedesigner.in.dimgx.net/demo/Helping-Hands/images/page-header.jpg) no-repeat scroll center top;
+  background: url(http://themedesigner.in.dimgx.net/demo/Helping-Hands/images/page-header.jpg)
+    no-repeat scroll center top;
   text-transform: uppercase;
   -webkit-background-size: cover;
   background-size: cover;
@@ -2552,7 +2599,8 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   margin: 0;
   border: none;
 }
-#good_cause .carousel-indicators li + li, #good_cause .carousel-indicators li + li.active {
+#good_cause .carousel-indicators li + li,
+#good_cause .carousel-indicators li + li.active {
   margin-left: 5px;
 }
 #good_cause .carousel-indicators li.active {
@@ -2682,7 +2730,10 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
     font-size: 18px;
   }
 }
-.upcoming_event .flip-clock-wrapper ul.play li.flip-clock-before .up .shadow, .upcoming_event .flip-clock-wrapper ul.play li.flip-clock-before .down .shadow, .upcoming_event .flip-clock-wrapper ul.play li.flip-clock-active .up .shadow, .upcoming_event .flip-clock-wrapper ul.play li.flip-clock-active .down .shadow {
+.upcoming_event .flip-clock-wrapper ul.play li.flip-clock-before .up .shadow,
+.upcoming_event .flip-clock-wrapper ul.play li.flip-clock-before .down .shadow,
+.upcoming_event .flip-clock-wrapper ul.play li.flip-clock-active .up .shadow,
+.upcoming_event .flip-clock-wrapper ul.play li.flip-clock-active .down .shadow {
   background: none #fff;
 }
 .upcoming_event .flip-clock-divider {
@@ -2761,7 +2812,8 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 .featured_causes_row .sectionTitle {
   margin-bottom: 50px;
 }
-.featured_causes_row .owl-prev, .featured_causes_row .owl-next {
+.featured_causes_row .owl-prev,
+.featured_causes_row .owl-next {
   top: 50%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
@@ -2773,7 +2825,8 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   position: absolute;
   text-align: center;
 }
-.featured_causes_row .owl-prev i, .featured_causes_row .owl-next i {
+.featured_causes_row .owl-prev i,
+.featured_causes_row .owl-next i {
   font-size: 18px;
 }
 .featured_causes_row .owl-prev {
@@ -3327,7 +3380,8 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   font: 700 13px/40px "Montserrat", sans-serif;
   padding: 0;
 }
-.sideNav ul li a:hover, .sideNav ul li a:focus {
+.sideNav ul li a:hover,
+.sideNav ul li a:focus {
   background: none;
 }
 .sideNav.affix {
@@ -3568,13 +3622,15 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   border: none;
   font: 700 14px/48px "Montserrat", sans-serif;
 }
-.hhh-tab li a:hover, .hhh-tab li a:focus {
+.hhh-tab li a:hover,
+.hhh-tab li a:focus {
   border: none;
 }
 .hhh-tab li.active a {
   border: none;
 }
-.hhh-tab li.active a:hover, .hhh-tab li.active a:focus {
+.hhh-tab li.active a:hover,
+.hhh-tab li.active a:focus {
   border: none;
 }
 .hhh-tab.shop-tab li > a {
@@ -3913,7 +3969,8 @@ blockquote footer {
   margin: 0;
   text-transform: uppercase;
 }
-.gallery-item:hover .popup, .gallery-item:focus .popup {
+.gallery-item:hover .popup,
+.gallery-item:focus .popup {
   opacity: 0.52;
 }
 .gallery-item .media-left {
@@ -4015,10 +4072,12 @@ blockquote footer {
 .gallery-pagination li.next {
   margin-left: 12px;
 }
-.gallery-pagination li.prev, .gallery-pagination li.next {
+.gallery-pagination li.prev,
+.gallery-pagination li.next {
   margin-left: 12px;
 }
-.gallery-pagination li.prev a, .gallery-pagination li.next a {
+.gallery-pagination li.prev a,
+.gallery-pagination li.next a {
   padding: 0 25px;
   border-radius: 3px;
 }
@@ -4139,7 +4198,7 @@ blockquote footer {
 .featureswithImage ul li:before {
   width: 11px;
   height: 11px;
-  content: '';
+  content: "";
   float: left;
   margin-top: 3.5px;
   margin-left: -25px;
@@ -4203,7 +4262,8 @@ blockquote footer {
 .post .featured-contents .post-gallery {
   position: relative;
 }
-.post .featured-contents .owl-prev, .post .featured-contents .owl-next {
+.post .featured-contents .owl-prev,
+.post .featured-contents .owl-next {
   position: absolute;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -4270,7 +4330,8 @@ blockquote footer {
   padding: 0;
   display: inline;
 }
-.post .post-meta li a:hover, .post .post-meta li a:focus {
+.post .post-meta li a:hover,
+.post .post-meta li a:focus {
   background: none;
 }
 .post .post-meta li i {
@@ -4416,7 +4477,8 @@ blockquote footer {
   padding: 0;
   text-transform: uppercase;
 }
-.pager li a:hover, .pager li a:focus {
+.pager li a:hover,
+.pager li a:focus {
   background: none;
 }
 .pager li a .post-sequence {
@@ -4634,7 +4696,8 @@ blockquote footer {
   font: 700 13px/40px "Montserrat", sans-serif;
   padding: 0;
 }
-.sidebar .widget .nav li a:hover, .sidebar .widget .nav li a:focus {
+.sidebar .widget .nav li a:hover,
+.sidebar .widget .nav li a:focus {
   background: none;
 }
 .sidebar .widget .recent-post {
@@ -4955,10 +5018,12 @@ blockquote footer {
   font: 16px/24px "Karla", sans-serif;
   margin-bottom: 50px;
 }
-.cause-item:hover .images_row img, .cause-item:focus .images_row img {
+.cause-item:hover .images_row img,
+.cause-item:focus .images_row img {
   opacity: 0.3;
 }
-.cause-item:hover .images_row a.btn-primary, .cause-item:focus .images_row a.btn-primary {
+.cause-item:hover .images_row a.btn-primary,
+.cause-item:focus .images_row a.btn-primary {
   bottom: 50%;
 }
 .cause-item.list-item .images_row {
@@ -5124,7 +5189,7 @@ blockquote footer {
   line-height: 16px;
   text-align: center;
   font-family: "FontAwesome";
-  content: '';
+  content: "";
   font-size: 14px;
 }
 .checkout-form #hide-name:checked + label:before {
@@ -5327,10 +5392,12 @@ blockquote footer {
   padding-left: 18px;
   padding-right: 0;
 }
-.product:hover .images_row img, .product:focus .images_row img {
+.product:hover .images_row img,
+.product:focus .images_row img {
   opacity: 0.3;
 }
-.product:hover .images_row a.btn-primary, .product:focus .images_row a.btn-primary {
+.product:hover .images_row a.btn-primary,
+.product:focus .images_row a.btn-primary {
   bottom: 50%;
 }
 
@@ -5347,7 +5414,8 @@ blockquote footer {
   font: 700 13px/38px "Montserrat", sans-serif;
   margin: 0;
 }
-.product-filtering .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+.product-filtering
+  .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
   width: 167px;
 }
 .product-filtering .bootstrap-select .btn {
@@ -5372,7 +5440,8 @@ blockquote footer {
 .product-filtering .bootstrap-select .dropdown-menu li a {
   font: 700 13px/36px "Montserrat", sans-serif;
 }
-.product-filtering .bootstrap-select .dropdown-menu li a:hover, .product-filtering .bootstrap-select .dropdown-menu li a:focus {
+.product-filtering .bootstrap-select .dropdown-menu li a:hover,
+.product-filtering .bootstrap-select .dropdown-menu li a:focus {
   background: none;
   -webkit-box-shadow: none;
   box-shadow: none;
